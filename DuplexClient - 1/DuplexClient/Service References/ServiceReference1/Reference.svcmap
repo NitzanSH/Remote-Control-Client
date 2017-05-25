@@ -22,10 +22,13 @@
     <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="56456894-0f56-4b9c-a8ac-34f2ad2bc999" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd1" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="be2b6abe-43cf-4060-8916-eadf29f35168" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd3" />
     <MetadataFile FileName="item.disco" MetadataType="Disco" ID="ca7f9ded-1a67-44c0-b050-0372d3e43410" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?disco" />
+    <MetadataFile FileName="item4.xsd" MetadataType="Schema" ID="29214aa4-f965-4ca9-a8ed-ae35a9659abc" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd4" />
     <MetadataFile FileName="DuplexCalculator12.wsdl" MetadataType="Wsdl" ID="61ec0f27-9b00-47ec-acc8-e61f3663558e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?wsdl" />
     <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="7a0674fd-f405-44bc-adbb-423e9e158ba9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd0" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="56456894-0f56-4b9c-a8ac-34f2ad2bc999" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="04a5c2f0-be0a-49c3-9ef9-75a5094b9bea" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

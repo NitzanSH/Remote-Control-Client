@@ -275,3 +275,135 @@ F:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\MainWindow.bam
 F:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.g.resources
 F:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.Properties.Resources.resources
 F:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.csproj.GenerateResource.Cache
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\DuplexClient.exe.config
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.exe
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.pdb
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csc.exe
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csc.exe.config
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csc.rsp
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csi.exe
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csi.exe.config
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csi.rsp
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.AppContext.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Collections.Immutable.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Console.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Diagnostics.Process.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.Compression.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.FileSystem.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.Pipes.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Reflection.Metadata.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.AccessControl.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Claims.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Principal.Windows.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Threading.Thread.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.ValueTuple.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Xml.XPath.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\vbc.exe
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\vbc.exe.config
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\vbc.rsp
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\VBCSCompiler.exe
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\VBCSCompiler.exe.config
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\DuplexClient.exe
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\DuplexClient.pdb
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.csprojResolveAssemblyReference.cache
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\LoginWindow.g.cs
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\MainWindow.g.cs
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\App.g.cs
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient_MarkupCompile.cache
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient_MarkupCompile.lref
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\LoginWindow.baml
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\MainWindow.baml
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.g.resources
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.Properties.Resources.resources
+E:\Remote Control Project\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.csproj.GenerateResource.Cache
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\DuplexClient.exe.config
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.exe
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.pdb
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csc.exe
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csc.exe.config
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csc.rsp
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csi.exe
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csi.exe.config
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\csi.rsp
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.AppContext.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Collections.Immutable.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Console.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Diagnostics.Process.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.Compression.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.FileSystem.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.FileSystem.DriveInfo.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.IO.Pipes.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Reflection.Metadata.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.AccessControl.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Claims.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Security.Principal.Windows.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Threading.Thread.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.ValueTuple.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Xml.XPath.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\vbc.exe
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\vbc.exe.config
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\vbc.rsp
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\VBCSCompiler.exe
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\roslyn\VBCSCompiler.exe.config
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\DuplexClient.exe
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\DuplexClient.pdb
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+P:\KUSHI\DuplexClient - 1\DuplexClient\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.csprojResolveAssemblyReference.cache
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\LoginWindow.g.cs
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\MainWindow.g.cs
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\App.g.cs
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient_MarkupCompile.cache
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient_MarkupCompile.lref
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\LoginWindow.baml
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\MainWindow.baml
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.g.resources
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.Properties.Resources.resources
+P:\KUSHI\DuplexClient - 1\DuplexClient\obj\Debug\DuplexClient.csproj.GenerateResource.Cache

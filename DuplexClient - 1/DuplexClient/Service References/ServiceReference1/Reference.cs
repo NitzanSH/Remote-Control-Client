@@ -9,7 +9,126 @@
 //------------------------------------------------------------------------------
 
 namespace DuplexClient.ServiceReference1 {
+    using System.Runtime.Serialization;
+    using System;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Events", Namespace="http://schemas.datacontract.org/2004/07/DuplexBL")]
+    [System.SerializableAttribute()]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(DuplexClient.ServiceReference1.MouseEvent))]
+    public partial class Events : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime lastTimeCheckedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string mouseOrKeyboardField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime lastTimeChecked {
+            get {
+                return this.lastTimeCheckedField;
+            }
+            set {
+                if ((this.lastTimeCheckedField.Equals(value) != true)) {
+                    this.lastTimeCheckedField = value;
+                    this.RaisePropertyChanged("lastTimeChecked");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string mouseOrKeyboard {
+            get {
+                return this.mouseOrKeyboardField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.mouseOrKeyboardField, value) != true)) {
+                    this.mouseOrKeyboardField = value;
+                    this.RaisePropertyChanged("mouseOrKeyboard");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="MouseEvent", Namespace="http://schemas.datacontract.org/2004/07/DuplexBL")]
+    [System.SerializableAttribute()]
+    public partial class MouseEvent : DuplexClient.ServiceReference1.Events {
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Windows.Point eventCoordinatesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string mouseButtonField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int numOfClicksField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Windows.Point eventCoordinates {
+            get {
+                return this.eventCoordinatesField;
+            }
+            set {
+                if ((this.eventCoordinatesField.Equals(value) != true)) {
+                    this.eventCoordinatesField = value;
+                    this.RaisePropertyChanged("eventCoordinates");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string mouseButton {
+            get {
+                return this.mouseButtonField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.mouseButtonField, value) != true)) {
+                    this.mouseButtonField = value;
+                    this.RaisePropertyChanged("mouseButton");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int numOfClicks {
+            get {
+                return this.numOfClicksField;
+            }
+            set {
+                if ((this.numOfClicksField.Equals(value) != true)) {
+                    this.numOfClicksField = value;
+                    this.RaisePropertyChanged("numOfClicks");
+                }
+            }
+        }
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IDuplexCalculator12")]
@@ -32,6 +151,18 @@ namespace DuplexClient.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDuplexCalculator12/Login", ReplyAction="http://tempuri.org/IDuplexCalculator12/LoginResponse")]
         System.Threading.Tasks.Task<string> LoginAsync(string userName, string Password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDuplexCalculator12/isNewMouse", ReplyAction="http://tempuri.org/IDuplexCalculator12/isNewMouseResponse")]
+        DuplexClient.ServiceReference1.MouseEvent isNewMouse(System.DateTime checkingTime);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDuplexCalculator12/isNewMouse", ReplyAction="http://tempuri.org/IDuplexCalculator12/isNewMouseResponse")]
+        System.Threading.Tasks.Task<DuplexClient.ServiceReference1.MouseEvent> isNewMouseAsync(System.DateTime checkingTime);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDuplexCalculator12/isNewKeyboard", ReplyAction="http://tempuri.org/IDuplexCalculator12/isNewKeyboardResponse")]
+        uint[] isNewKeyboard(System.DateTime checkingTime);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDuplexCalculator12/isNewKeyboard", ReplyAction="http://tempuri.org/IDuplexCalculator12/isNewKeyboardResponse")]
+        System.Threading.Tasks.Task<uint[]> isNewKeyboardAsync(System.DateTime checkingTime);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -83,6 +214,22 @@ namespace DuplexClient.ServiceReference1 {
         
         public System.Threading.Tasks.Task<string> LoginAsync(string userName, string Password) {
             return base.Channel.LoginAsync(userName, Password);
+        }
+        
+        public DuplexClient.ServiceReference1.MouseEvent isNewMouse(System.DateTime checkingTime) {
+            return base.Channel.isNewMouse(checkingTime);
+        }
+        
+        public System.Threading.Tasks.Task<DuplexClient.ServiceReference1.MouseEvent> isNewMouseAsync(System.DateTime checkingTime) {
+            return base.Channel.isNewMouseAsync(checkingTime);
+        }
+        
+        public uint[] isNewKeyboard(System.DateTime checkingTime) {
+            return base.Channel.isNewKeyboard(checkingTime);
+        }
+        
+        public System.Threading.Tasks.Task<uint[]> isNewKeyboardAsync(System.DateTime checkingTime) {
+            return base.Channel.isNewKeyboardAsync(checkingTime);
         }
     }
 }

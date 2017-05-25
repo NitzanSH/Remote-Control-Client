@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DuplexBL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DuplexBL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Windows" />
+  <xs:complexType name="MouseEvent">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Events">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Windows" minOccurs="0" name="eventCoordinates" type="q1:Point" />
+          <xs:element minOccurs="0" name="mouseButton" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="numOfClicks" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MouseEvent" nillable="true" type="tns:MouseEvent" />
+  <xs:complexType name="Events">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="lastTimeChecked" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="mouseOrKeyboard" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Events" nillable="true" type="tns:Events" />
+</xs:schema>

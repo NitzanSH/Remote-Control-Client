@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DuplexBL" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/DuplexService/DuplexCalculator12/?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <xs:element name="SendScreenshot">
     <xs:complexType>
       <xs:sequence>
@@ -41,6 +43,34 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="LoginResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="isNewMouse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="checkingTime" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="isNewMouseResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DuplexBL" minOccurs="0" name="isNewMouseResult" nillable="true" type="q1:MouseEvent" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="isNewKeyboard">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="checkingTime" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="isNewKeyboardResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="isNewKeyboardResult" nillable="true" type="q2:ArrayOfunsignedInt" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
