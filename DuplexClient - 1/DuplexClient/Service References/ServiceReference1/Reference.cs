@@ -90,6 +90,12 @@ namespace DuplexClient.ServiceReference1 {
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int numOfClicksField;
         
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private double toScaleHeightField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private double toScaleWidthField;
+        
         [System.Runtime.Serialization.DataMemberAttribute()]
         public System.Windows.Point eventCoordinates {
             get {
@@ -125,6 +131,32 @@ namespace DuplexClient.ServiceReference1 {
                 if ((this.numOfClicksField.Equals(value) != true)) {
                     this.numOfClicksField = value;
                     this.RaisePropertyChanged("numOfClicks");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double toScaleHeight {
+            get {
+                return this.toScaleHeightField;
+            }
+            set {
+                if ((this.toScaleHeightField.Equals(value) != true)) {
+                    this.toScaleHeightField = value;
+                    this.RaisePropertyChanged("toScaleHeight");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double toScaleWidth {
+            get {
+                return this.toScaleWidthField;
+            }
+            set {
+                if ((this.toScaleWidthField.Equals(value) != true)) {
+                    this.toScaleWidthField = value;
+                    this.RaisePropertyChanged("toScaleWidth");
                 }
             }
         }

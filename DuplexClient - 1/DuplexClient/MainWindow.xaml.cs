@@ -100,7 +100,16 @@ namespace DuplexClient
                 MouseEvent mouseEventToDo = server.isNewMouse(DateTime.Now);
                 if(mouseEventToDo != null)
                 {
-                    MoveCursorToPoint(mouseEventToDo.eventCoordinates.X, mouseEventToDo.eventCoordinates.Y);
+                    double screenHeight = SystemParameters.VirtualScreenHeight;
+                    double screenWidth = SystemParameters.VirtualScreenWidth;
+
+                    double scaleHeight = screenHeight / mouseEventToDo.toScaleHeight;
+                    double scaleWidth = screenWidth / mouseEventToDo.toScaleWidth;
+
+                    int x = Convert.ToInt32(mouseEventToDo.eventCoordinates.X * scaleWidth);
+                    int y = Convert.ToInt32(mouseEventToDo.eventCoordinates.Y * scaleHeight);
+
+                    MoveCursorToPoint(x, y);
                     switch (mouseEventToDo.mouseButton) {
                         case ("left"):
                             for (int i = 0; i < mouseEventToDo.numOfClicks; i++)

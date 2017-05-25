@@ -8,6 +8,8 @@
           <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Windows" minOccurs="0" name="eventCoordinates" type="q1:Point" />
           <xs:element minOccurs="0" name="mouseButton" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="numOfClicks" type="xs:int" />
+          <xs:element minOccurs="0" name="toScaleHeight" type="xs:double" />
+          <xs:element minOccurs="0" name="toScaleWidth" type="xs:double" />
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
