@@ -37,9 +37,9 @@ namespace DuplexClient
     */
     public partial class MainWindow : Window
     {
-        DuplexCalculator12Client server;
-        System.Windows.Forms.Timer myTimer;
-        DispatcherTimer myTimer2;
+        private DuplexCalculator12Client server;
+        private System.Windows.Forms.Timer myTimer;
+        private bool Streaming = false;
 
         [DllImport("user32.dll")]
         static extern bool SetCursorPos(int X, int Y);
@@ -74,7 +74,7 @@ namespace DuplexClient
                 myTimer = new System.Windows.Forms.Timer();
                 myTimer.Tick += new EventHandler(screenShotSnaper);
                 myTimer.Tick += new EventHandler(newEvent);
-                myTimer.Start();
+                
                
             }
 
@@ -159,6 +159,8 @@ namespace DuplexClient
                 bitmapimage.StreamSource = memory;
                 bitmapimage.CacheOption = BitmapCacheOption.OnLoad;
                 bitmapimage.EndInit();
+
+                //streamingImage.Source = bitmapimage;
 
                 byte[] data;
                 JpegBitmapEncoder encoder = new JpegBitmapEncoder();
@@ -261,21 +263,6 @@ namespace DuplexClient
                 Input.U.ki.dwFlags = KEYEVENTF.SCANCODE;
                 Inputs[i] = Input;
             }
-            //Input.type = 1; // 1 = Keyboard Input
-            //Input.U.ki.wScan = ScanCodeShort.KEY_S;
-            //Input.U.ki.dwFlags = KEYEVENTF.SCANCODE;
-            //Inputs[1] = Input;
-
-            //Input.type = 1; // 1 = Keyboard Input
-            //Input.U.ki.wScan = ScanCodeShort.KEY_A;
-            //Input.U.ki.dwFlags = KEYEVENTF.SCANCODE;
-            //Inputs[2] = Input;
-
-            //Input.type = 1; // 1 = Keyboard Input
-            //Input.U.ki.wScan = ScanCodeShort.KEY_D;
-            //Input.U.ki.dwFlags = KEYEVENTF.SCANCODE;
-            //Inputs[3] = Input;
-
 
             SendInput(1, Inputs, INPUT.Size);
         }
@@ -370,6 +357,8 @@ namespace DuplexClient
             SCANCODE = 0x0008,
             UNICODE = 0x0004
         }
+
+        #region SO MANY KEYS
 
         internal enum VirtualKeyShort : short
         {
@@ -1241,6 +1230,8 @@ namespace DuplexClient
             OEM_CLEAR = 0,
         }
 
+        #endregion
+
         /// <summary>
         /// Define HARDWAREINPUT struct
         /// </summary>
@@ -1250,6 +1241,25 @@ namespace DuplexClient
             internal int uMsg;
             internal short wParamL;
             internal short wParamH;
+        }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (Streaming)
+            {
+                Streaming = !Streaming;
+                statusLabel.Content = "Streaming: OFF";
+                statusLabel.Foreground = System.Windows.Media.Brushes.Red;
+                myTimer.Stop();
+            }
+
+            else
+            {
+                Streaming = !Streaming;
+                statusLabel.Content = "Streaming: ON";
+                statusLabel.Foreground = System.Windows.Media.Brushes.Green;
+                myTimer.Start();
+            }
         }
     }
 }

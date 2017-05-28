@@ -5,20 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DuplexClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="MainWindow" Background="Beige" Height="600" Width="800">
     <Grid>
-        
+
         <Grid.RowDefinitions>
-            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+
         </Grid.ColumnDefinitions>
-        <Viewbox Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"> 
-        <Image x:Name="image" 
-                VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
-        </Viewbox>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button_Click" />
+        <TextBlock x:Name="userLabel" Text="User: " TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="24" />
+        <TextBlock x:Name="streamingCode" Text="Streaming Code: " TextWrapping="Wrap" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="22" />
+        <Button x:Name="toggleButton" Content="Toogle Stream" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Stretch" FontSize="36" Background="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}" Opacity="0.7" FontFamily="Segoe WP Black" Click="button_Click_1"/>
+        <Label x:Name="statusLabel" Foreground="Red" Content="Streaming: OFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="2" FontSize="48" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" FontFamily="Segoe WP Black"/>
     </Grid>
 </Window>
